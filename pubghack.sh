@@ -73,11 +73,12 @@ banner_mafia() {
 	cat <<- EOF
 ${ORANGE} 
 ${ORANGE} ████████████████████████████████████████████████ 
-${ORANGE} █ ${BLUE}___  _  _ _ ____ _  _ _ _  _ ____ ${MAGENTA}SSLRI ${ORANGE}█
-${ORANGE} █ ${BLUE}|__] |__| | [__  |__| | |\ | | __ ${MAGENTA}whatsapp   ${ORANGE}█
-${ORANGE} █ ${BLUE}|    |  | | ___] |  | | | \| |__] ${MAGENTA}09384491252${ORANGE}█
-${ORANGE} █                                              ${ORANGE}█
+${ORANGE} █ ${BLUE}___  _  _ _ ____ _  _ _ _  _ ____     █
+${ORANGE} █ ${BLUE}|__] |__| | [__  |__| | |\ | | __     █
+${ORANGE} █ ${BLUE}|    |  | | ___] |  | | | \| |__]     █
+${ORANGE} █                                              █
 ${ORANGE} ████████████████████████████████████████████████
+${PURPLE} ------ instagram : sslri -------●	                
 	EOF
 }
 
@@ -175,9 +176,9 @@ msg_exit() {
 about() {
 	{ clear; banner; echo; }
 	cat <<- EOF
-${GREEN} SSLRI 
-${GREEN} whatsapp 
-${RED} 09384491252
+${GREEN} Yousec 
+${GREEN} instagram 
+${RED} sslri
 ${RED} Main Menu     
 ${RED} Exit
 	EOF
