@@ -25,7 +25,7 @@ pubghack Phishing tool is obviously a phishing tool that will allow you to Creat
 * `pkg install git -y`
 * `git clone https://github.com/SSLRI/pubghack`
 * `cd pubghack`
-* `bash BlackMafia.sh`
+* `bash pubghack.sh`
 
 ## CONNECT WITH US :
 
