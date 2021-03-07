@@ -22,10 +22,7 @@ pubghack Phishing tool is obviously a phishing tool that will allow you to Creat
 
 * `apt-get update -y`
 * `apt-get upgrade -y`
-* `pkg install python -y`
-* `pkg install python2 -y`
 * `pkg install git -y`
-* `pip install lolcat`
 * `git clone https://github.com/SSLRI/pubghack`
 * `cd pubghack`
 * `bash BlackMafia.sh`
