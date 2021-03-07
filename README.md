@@ -29,7 +29,7 @@ pubghack Phishing tool is obviously a phishing tool that will allow you to Creat
 * `git clone https://github.com/SSLRI/pubghack`
 * `cd pubghack`
 * `bash BlackMafia.sh`
-```
+
 ## CONNECT WITH US :
 
 <a href="https://github.com/sslri"><img title="Github" src="https://img.shields.io/badge/sslri-brightgreen?style=for-the-badge&logo=github"></a>
